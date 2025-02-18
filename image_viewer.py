@@ -123,7 +123,7 @@ class MainWindow(Qw.QMainWindow):
     if img is None:
       message = f"画像 '{os.path.basename(file_path)}' を読み込むことができません。\n"
       if self.contains_japanese(file_path):
-        message += " ファイル名に日本語が含まれている可能性があります。"
+        message += " ファイル名もしくはパスに日本語が含まれている可能性があります。"
       self.file_loadError(message)
       return
 
