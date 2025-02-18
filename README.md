@@ -12,8 +12,8 @@
 ・ main.py : アプリケーションのエントリーポイント  
 ・ image_viewer.py : メインウィンドウと画像処理のロジック  
 ・ README.md : このファイル  
-・ requirements.txt : 使用しているライブラリをリストアップ
-・ LICENSE.txt : ライセンス
+・ requirements.txt : 使用しているライブラリをリストアップ  
+・ LICENSE.txt : ライセンス  
 
 ## 使い方
 1. アプリケーションを起動すると、メインウィンドウが表示されます。  
